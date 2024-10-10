@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/fondo"> <!-- Asegúrate de tener esta imagen en drawable -->
+
+    <TextView
+        android:id="@+id/ranking_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ranking"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:padding="10dp"
+        android:background="#95000000"/>
+
+    <ListView
+        android:id="@+id/ranking_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#95000000"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:id="@+id/exit_ranking_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salir"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:backgroundTint="#95000000"/>
+</LinearLayout>

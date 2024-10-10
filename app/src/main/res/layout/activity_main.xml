@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/fondo">
+
+  <TextView
+      android:id="@+id/score_text_view"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Puntuación: 0"
+      android:textSize="30sp"
+      android:layout_gravity="center"
+      android:layout_marginBottom="16dp"
+      android:textColor="@color/white"
+      android:layout_marginTop="120dp"
+      android:padding="7dp"
+      android:background="@drawable/background_grid"/>
+
+  <GridView
+      android:layout_width="300dp"
+      android:layout_height="220dp"
+      android:numColumns="2"
+      android:id="@+id/grindView"
+      android:foregroundGravity="center"
+      android:background="@drawable/background_grid"
+      android:layout_marginTop="30dp"
+      android:layout_marginBottom="120dp">
+  </GridView>
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_marginBottom="70dp">
+      <Button
+          android:id="@+id/button_play"
+          android:layout_width="140dp"
+          android:layout_height="50dp"
+          android:text="Jugar"
+          android:textSize="22sp"
+          android:layout_marginRight="10dp"
+          android:textColor="@color/white"
+          android:backgroundTint="#95000000"/>
+      <Button
+          android:id="@+id/BtnRanking"
+          android:layout_width="140dp"
+          android:layout_height="50dp"
+          android:text="Ranking"
+          android:textSize="22sp"
+          android:layout_marginLeft="10dp"
+          android:textColor="@color/white"
+          android:backgroundTint="#95000000"/>
+  </LinearLayout>
+
+
+</LinearLayout>
